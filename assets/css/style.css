@@ -8,23 +8,24 @@ body, html {
     color: #666;
 }
 
+
+/*----------Nav----------*/
 .top-nav {
     margin: 0;
     max-height: 132px;
-    background-color: red;
+    background-color: #fff;
     position: relative;
 }
 
 
-
 #site-nav {
-    margin: 66px 0 0 0;
+    padding: 42px 0 100px 0;
     position: relative;
     z-index: 1;
 }
 
 #site-nav a {
-    color: #fff;
+    color: #044C7F;
     display: block;
     padding: 14px 16px 0 16px;
     text-decoration: none;
@@ -47,4 +48,19 @@ body, html {
 #site-nav a:hover {
     border-bottom: solid;
     margin: 0;
+}
+
+/*----------Breadcrumbs----------*/
+#breadcrumbs {
+    height: 29px;
+    width: 100%;
+    background-color: #044C7F;
+}
+
+
+/*----------Site----------*/
+.site-top {
+    background-color: #F1F1F2;
+    max-height: 843px;
+    width: 100%;
 }
