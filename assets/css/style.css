@@ -8,6 +8,16 @@ body, html {
     color: #666;
 }
 
+p {
+    margin-top: 0;
+}
+
+#breadcrumbs p {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    position: relative;
+}
 
 /*----------Nav----------*/
 .top-nav {
