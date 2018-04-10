@@ -14,7 +14,7 @@ body, html {
 }
 
 p {
-    margin-top: 0;
+    margin: 0;
 }
 
 /*----------Nav----------*/
@@ -86,8 +86,8 @@ p {
     font-size: 12px;
     color: #fff;
     margin: 0;
-    position: sticky;
-    top: -10px;
+    position: relative;
+    top: -15px;
 }
 
 
@@ -96,4 +96,33 @@ p {
     background-color: #F1F1F2;
     flex: 1;
     width: 100%;
+}
+
+
+
+/*----------profile----------*/
+.first-row, .sec-row, .third-row {
+    display: flex;
+}
+
+.first-row div, .sec-row div, .third-row div {
+    margin-top: 60px;
+    margin-left: 55px;
+    margin-right: 55px;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+.first-row input, .sec-row input, .third-row input {
+    position: relative;
+    flex: 1;
+    height: 32px;
+}
+.first-row p, .sec-row p, .third-row p {
+    position: relative;
+    flex: 1;
+}
+
+option {
+    flex: 1;
 }
