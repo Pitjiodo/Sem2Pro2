@@ -15,6 +15,7 @@ p {
 /*----------Nav----------*/
 .top-nav {
     margin: 0;
+    height: 132px;
     max-height: 132px;
     background-color: #fff;
     position: sticky;
@@ -37,7 +38,7 @@ p {
 }
 
 #site-nav ul {
-    margin: 0;
+    margin: 57px 0 0 0;
     padding: 0;
     display:inline-block;
     list-style: none;
@@ -56,6 +57,16 @@ p {
     position: relative;
     display: inline-block;
     margin: 0;
+}
+
+
+#logo {
+    height: 56px;
+    width: auto;
+    margin: 0;
+    position: absolute;
+    left: 38px;
+    top: 38px;
 }
 
 /*----------Breadcrumbs----------*/
