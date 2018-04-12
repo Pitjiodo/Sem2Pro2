@@ -76,22 +76,76 @@ p {
 }
 
 /*----------Breadcrumbs----------*/
-#breadcrumbs {
-    height: 2%;
+.breadcrumbs {
+    font-size: 12px;
+    list-style: none;
+    overflow: hidden;
+    height: 2.5%;
     width: 100%;
     background-color: #044C7F;
 }
 
-#breadcrumbs p {
-    font-size: 12px;
-    color: #fff;
-    margin: 0;
-    position: relative;
-    top: -15px;
+.breadcrumbs li {
+    float: left;
 }
 
+.breadcrumbs li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px 10px 40px;
+  background: #044C7F;
+  position: relative;
+  display: block;
+  float: left;
+  top: -20px;
+}
 
+.breadcrumbs li a::after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 10px solid white;
+  position: absolute;
+  top: 27%;
+  margin-top: 0px;
+  left: 100%;
+  z-index: 3;
+}
 
+.breadcrumbs li a::before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 10px solid white;
+  position: absolute;
+  top: 27%;
+  margin-top: -50px;
+  margin-left: 1px;
+  left: 100;
+  z-index: 2;
+}
+
+.breadcrumbs li:first-child a {
+  padding-left: 40px;
+}
+.breadcrumbs li:nth-child(1) a
+.breadcrumbs li:nth-child(1) a:after
+.breadcrumbs li:nth-child(2) a
+.breadcrumbs li:nth-child(2) a:after
+.breadcrumbs li:nth-child(3) a
+.breadcrumbs li:nth-child(3) a:after
+.breadcrumbs li:nth-child(4) a
+.breadcrumbs li:nth-child(4) a:after
+.breadcrumbs li:last-child a::after {border: 0;}
+
+.breadcrumbs li a:hover       {background: #053756;}
+.breadcrumbs li a:hover:after {background: #053756 !important;}
 /*----------Site----------*/
 .site-top {
     background-color: #F1F1F2;
