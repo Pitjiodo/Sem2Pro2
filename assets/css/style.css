@@ -91,6 +91,7 @@ p {
 }
 
 
+
 /*----------Site----------*/
 .site-top {
     background-color: #F1F1F2;
@@ -103,6 +104,7 @@ p {
 /*----------profile----------*/
 .first-row, .sec-row, .third-row {
     display: flex;
+    font: 400 26px lato, sans-serif;
 }
 
 .first-row div, .sec-row div, .third-row div {
@@ -117,10 +119,12 @@ p {
     position: relative;
     flex: 1;
     height: 32px;
+    font: 18px lato, sans-serif;
 }
 .first-row p, .sec-row p, .third-row p {
     position: relative;
     flex: 1;
+    color: #044C7F;
 }
 
 option {
