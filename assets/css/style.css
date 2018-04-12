@@ -154,7 +154,7 @@ p {
 }
 
 .breadcrumbs li a:hover       {background: #053756;}
-.breadcrumbs li a:hover:after {background: #053756 !important;}
+.breadcrumbs li a:hover:after {background: #044C7F;}
 /*----------Site----------*/
 .site-top {
     background-color: #F1F1F2;
