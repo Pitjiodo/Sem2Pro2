@@ -101,60 +101,63 @@ p {
 }
 
 .breadcrumbs li a::after {
-  content: " ";
+  content: "";
   display: block;
   width: 0;
   height: 0;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 10px solid white;
+  border-left: 15px solid #044C7F;
   position: absolute;
   top: 27%;
   margin-top: 0px;
   left: 100%;
-  z-index: 3;
+  z-index: 2;
 }
 
 .breadcrumbs li a::before {
-  content: " ";
+  content: "";
   display: block;
   width: 0;
   height: 0;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 10px solid white;
+  border-left: 15px solid white;
   position: absolute;
   top: 27%;
-  margin-top: -50px;
-  margin-left: 1px;
-  left: 100;
-  z-index: 2;
+  margin-top: 0px;
+  margin-left: 2px;
+  left: 100%;
+  z-index: 1;
 }
 
 .breadcrumbs li:first-child a {
   padding-left: 40px;
 }
-.breadcrumbs li:nth-child(1) a
-.breadcrumbs li:nth-child(1) a:after
-.breadcrumbs li:nth-child(2) a
-.breadcrumbs li:nth-child(2) a:after
-.breadcrumbs li:nth-child(3) a
-.breadcrumbs li:nth-child(3) a:after
-.breadcrumbs li:nth-child(4) a
-.breadcrumbs li:nth-child(4) a:after
 
-.breadcrumb li:last-child a {
+.breadcrumbs li:last-child a {
   background: transparent !important;
   color: white;
   pointer-events: none;
   cursor: default;
 }
+
 .breadcrumbs li:last-child a::after {
   border: 0;
 }
 
-.breadcrumbs li a:hover       {background: #053756;}
-.breadcrumbs li a:hover:after {background: #044C7F;}
+.breadcrumbs li:last-child a::before {
+  border: 0;
+}
+
+.breadcrumbs li a:hover       {
+  background: #053756;
+}
+
+.breadcrumbs li a:hover:after {
+  border-left-color: #053756 !important;
+}
+
 /*----------Site----------*/
 .site-top {
     background-color: #F1F1F2;
