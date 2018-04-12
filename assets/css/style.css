@@ -142,7 +142,16 @@ p {
 .breadcrumbs li:nth-child(3) a:after
 .breadcrumbs li:nth-child(4) a
 .breadcrumbs li:nth-child(4) a:after
-.breadcrumbs li:last-child a::after {border: 0;}
+
+.breadcrumb li:last-child a {
+  background: transparent !important;
+  color: white;
+  pointer-events: none;
+  cursor: default;
+}
+.breadcrumbs li:last-child a::after {
+  border: 0;
+}
 
 .breadcrumbs li a:hover       {background: #053756;}
 .breadcrumbs li a:hover:after {background: #053756 !important;}
