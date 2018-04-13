@@ -189,14 +189,32 @@ p {
     position: relative;
     flex: 1;
     height: 32px;
+    max-height: 32px;
     font: 18px lato, sans-serif;
+    border-radius: 10px;
 }
 .first-row p, .sec-row p, .third-row p {
     position: relative;
     flex: 1;
     color: #044C7F;
 }
+.first-row p {
+    top: 50px;
+}
 
-option {
+.first-row img {
+    height: 125px;
+    width: 125px;
+    margin: 0;
+    margin-left: 50%;
+}
+.change {
+    font-weight: 300;
+    font-size: 16px;
+    
+}
+
+select {
     flex: 1;
+    border-radius: 10px;
 }
