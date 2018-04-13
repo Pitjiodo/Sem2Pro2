@@ -76,13 +76,16 @@ p {
 }
 
 /*----------Breadcrumbs----------*/
+.breadcrumbline {
+}
 .breadcrumbs {
+    height: 23px;
+    width: 100%;
     font-size: 12px;
     list-style: none;
     overflow: hidden;
-    height: 23px;
-    width: 100%;
     background-color: #044C7F;
+    margin: 0;
 }
 
 .breadcrumbs li {
@@ -133,6 +136,7 @@ p {
 
 .breadcrumbs li:first-child a {
   padding-left: 40px;
+  margin-left: -40px;
 }
 
 .breadcrumbs li:last-child a {
