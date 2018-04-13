@@ -29,9 +29,6 @@ p {
 
 #site-nav {
     text-align:center;
-    /*padding: 42px 0 100px 0;
-    position: relative;
-    z-index: 1;*/
 }
 
 #site-nav a {
@@ -161,7 +158,28 @@ p {
 .breadcrumbs li a:hover:after {
   border-left-color: #053756 !important;
 }
+/*----------Searchbar----------*/
+#pagesearch {
+  position: absolute;
+  left: 50%;
+  float: right;
+  display: block;
+}
+/*input[type=text] {
+    width: 0%;
+    min-width: 45px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  	overflow: hidden;
+    margin-right: 40%;
+}
 
+input[type=text]:focus {
+    direction: rtl;
+    float:right;
+    width: 300px;
+    left:25%;
+}*/
 /*----------Site----------*/
 .site-top {
     background-color: #F1F1F2;
