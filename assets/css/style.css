@@ -191,6 +191,31 @@ p {
     width: 100%;
 }
 
+/*----------Forum----------*/
+
+.content-forum {
+  width: 70%;
+  float: left;
+  background-color: #FFF;
+  border-radius: 5px;
+  border-style: ridge;
+  border-color: #226494;
+  padding: 1%;
+  margin: 1%;
+}
+
+.forum-popular-threads, .leaderboard {
+  width: 30%;
+  float: right;
+  background-color: #FFF;
+  border-radius: 5px;
+  border-style: ridge;
+  border-color: #226494;
+  padding: 1%;
+  margin: 1%;
+}
+
+
 
 
 /*----------profile----------*/
