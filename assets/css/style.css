@@ -215,6 +215,10 @@ p {
   margin: 1%;
 }
 
+.user-name-when-posted, .replies-count{
+  font-style: italic;
+  color: #F68D28;
+}
 
 
 
