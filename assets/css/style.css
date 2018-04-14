@@ -74,14 +74,18 @@ p {
 
 /*----------Breadcrumbs----------*/
 .breadcrumbline {
+    display: flex;
+
+    height: 23px;
+    background-color: #044C7F;
 }
 .breadcrumbs {
+    flex: 1;
     height: 23px;
     width: 100%;
     font-size: 12px;
     list-style: none;
     overflow: hidden;
-    background-color: #044C7F;
     margin: 0;
 }
 
@@ -165,7 +169,7 @@ p {
   float: right;
   display: block;
 }
-input[type=text] {
+.pagesearch-bar {
     width: 0%;
     min-width: 45px;
     -webkit-transition: width 0.4s ease-in-out;
@@ -173,7 +177,7 @@ input[type=text] {
   	overflow: hidden;
 }
 
-input[type=text]:focus {
+.pagesearch-bar:focus {
     text-align: right;
     direction: rtl;
     float:right;
@@ -224,12 +228,10 @@ input[type=text]:focus {
     height: 125px;
     width: 125px;
     margin: 0;
-    margin-left: 50%;
 }
 .change {
     font-weight: 300;
     font-size: 16px;
-    
 }
 
 select {
