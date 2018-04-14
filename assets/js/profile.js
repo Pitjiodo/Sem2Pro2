@@ -1,25 +1,26 @@
-document.querySelector(".hej").addEventListener("click", myFunction);
+document.querySelector(".saveButton").addEventListener("click", myFunction);
 
 
 
-
-var fName = document.querySelector(".firstName").innerHTML;
-
+var fName = {};
 
 
 function myFunction() {
-    document.querySelector(".hej").innerHTML = "Saved";
-
-if (typeof(Storage) !== "undefined") {
-    // Store
+    document.querySelector(".saveButton").innerHTML = "Saved";
+    
+    var fName = document.querySelector(".firstName").value;
+    document.querySelector(".firstName").innerHTML = fName;
+    
     localStorage.setItem("firstName", fName);
-} else {
-    document.getElementById(".firstName").innerHTML = "Write your name here...";
-}
 }
 
 
 
-window.onload = function(){
-    document.querySelector(".firstName").innerHTML = localStorage.getItem("firstName");
+
+
+window.onload = function onloadName(){
+
+    document.querySelector(".firstName").value = localStorage.getItem("firstName");
+
 }
+
