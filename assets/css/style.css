@@ -259,7 +259,10 @@ h1 {
     flex: 1;
     margin-left: 123px;
 }
-.lessonCode{
+.lessonCode p, .lessonCode h2, .lessonSpell p, .lessonSpell h2, .lessonMath p, .lessonMath h2{
+    position: relative;
+    margin-left: 18px;
+    margin-right: 18px;
 }
 .lessonSpell {
 }
