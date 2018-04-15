@@ -105,7 +105,7 @@ h1 {
 
 /*----------Breadcrumbs----------*/
 .breadcrumbline {
-  display: flex;
+  display: grid;
   height: 23px;
   background-color: #044C7F;
 }
@@ -309,6 +309,15 @@ section {
 .content-forum {
   width: 70%;
   float: left;
+  background-color: #FFF;
+  border-radius: 5px;
+  border-style: ridge;
+  border-color: #226494;
+  padding: 1%;
+  margin: 1%;
+}
+
+.post-forum {
   background-color: #FFF;
   border-radius: 5px;
   border-style: ridge;
