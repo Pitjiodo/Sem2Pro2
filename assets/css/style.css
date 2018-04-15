@@ -225,14 +225,21 @@ h1 {
   right: 100%;
   cursor: text;
 }
+
 /*----------Site----------*/
 .site-top {
   background-color: #F1F1F2;
   flex: 1;
   width: 100%;
 }
-/*----------Lesson Design----------*/
-.lesson-design {
+
+/*----------Design----------*/
+.design {
+
+}
+
+.design-title{
+
 }
 
 input#tab1,
