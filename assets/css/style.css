@@ -16,6 +16,9 @@ body, html {
 p {
   margin: 0;
 }
+h1 {
+    margin: 0;
+}
 
 /*----------Nav----------*/
 .top-nav {
@@ -216,17 +219,51 @@ p {
 }
 
 .pagesearch-bar:focus {
+<<<<<<< HEAD
+    text-align: right;
+    direction: rtl;
+    float: right;
+    width: 300px;
+    right: 100%;
+=======
   direction: rtl;
   float:right;
   width: 300px;
   right: 100%;
   cursor: text;
+>>>>>>> cfbf8b3b616ffbf93e8fc471aa7238a7afa00da4
 }
 /*----------Site----------*/
 .site-top {
   background-color: #F1F1F2;
   flex: 1;
   width: 100%;
+}
+
+/*----------Lesson----------*/
+.site-top-lesson {
+    background-color: #F1F1F2;
+    flex: 1;
+    width: 100%;
+}
+.lessonPlan {
+    display: flex;
+    flex-flow: row;
+}
+
+.lessonCode, .lessonSpell, .lessonMath {
+    position: relative;
+    max-width: 287px;
+    max-height: 410px;
+    background-color: #fff;
+    flex: 1;
+    margin-left: 123px;
+}
+.lessonCode{
+}
+.lessonSpell {
+}
+.lessonMath {
 }
 
 /*----------Forum----------*/
