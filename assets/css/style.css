@@ -1,20 +1,20 @@
 body, html {
-    height: 100%;
-    margin: 0;
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    line-height: 2.6em;
-    color: #666;
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 2.6em;
+  color: #666;
 }
 
 .site-wrapper {
-    display: flex;
-    flex-flow: column;
+  display: flex;
+  flex-flow: column;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 h1 {
     margin: 0;
@@ -22,74 +22,101 @@ h1 {
 
 /*----------Nav----------*/
 .top-nav {
-    margin: 0;
-    flex: 1;
-    max-height: 132px;
-    background-color: #fff;
-    position: sticky;
+  margin: 0;
+  flex: 1;
+  max-height: 132px;
+  background-color: #fff;
+  position: sticky;
 }
 
 
 #site-nav {
-    text-align:center;
+  text-align:center;
 }
 
 #site-nav a {
-    color: #044C7F;
-    display: block;
-    text-decoration: none;
-    transition: opacity .3s;
+  color: #044C7F;
+  display: block;
+  text-decoration: none;
+  transition: opacity .3s;
 }
 
 #site-nav ul {
-    margin: 60px 0 0 0;
-    display:inline-block;
-    list-style: none;
-    overflow: hidden;
+  margin: 60px 0 0 0;
+  display:inline-block;
+  list-style: none;
+  overflow: hidden;
 }
 
 #site-nav li {
-    font-size: 24px;
-    margin: 0;
-    margin-right: 40px;
-    display: inline;
-    list-style: none;
-    float: left;
-    font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  margin-right: 40px;
+  display: inline;
+  list-style: none;
+  float: left;
+  font-weight: 700;
 }
 
 #site-nav a:hover {
-    border-bottom: solid;
-    position: relative;
-    display: inline-block;
-    margin: 0;
+  border-bottom: solid;
+  position: relative;
+  display: inline-block;
+  margin: 0;
 }
 
 
 #logo {
-    height: 56px;
-    width: auto;
-    margin: 0;
-    position: absolute;
-    left: 38px;
-    top: 38px;
+  height: 56px;
+  width: auto;
+  margin: 0;
+  position: absolute;
+  left: 38px;
+  top: 38px;
+}
+/*----------Profile----------*/
+.headertopright {
+  display: inline-block;
+  position: relative;
+  float:right;
+  margin:0;
+  right: 1.25%;
+  bottom: 65%;
+}
+
+#avatar {
+  position: relative;
+  float:right;
+  right: 0;
+}
+
+#headertext {
+  position: relative;
+  float:right;
+  top: 22px;
+  right: 10px;
+  color: #044C7F;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.0em;
+  text-align: right;
 }
 
 /*----------Breadcrumbs----------*/
 .breadcrumbline {
-    display: flex;
-
-    height: 23px;
-    background-color: #044C7F;
+  display: flex;
+  height: 23px;
+  background-color: #044C7F;
 }
+
 .breadcrumbs {
-    flex: 1;
-    height: 23px;
-    width: 100%;
-    font-size: 12px;
-    list-style: none;
-    overflow: hidden;
-    margin: 0;
+  flex: 1;
+  width: 100%;
+  font-size: 12px;
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
 }
 
 .breadcrumbs li {
@@ -168,30 +195,49 @@ h1 {
 /*----------Searchbar----------*/
 #pagesearch {
   position: absolute;
-  right: 0;
+  right: 1.25%;
+  height: 17px;
   float: right;
   display: block;
+  outline: none;
+  border: 2px solid #707070;
+  border-radius: 12px;
 }
+
 .pagesearch-bar {
-    width: 0%;
-    min-width: 45px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-  	overflow: hidden;
+  width: 0%;
+  min-width: 20px;
+  -webkit-transition: width 0.25s ease-in-out;
+  transition: width 0.25s ease-in-out;
+  overflow: hidden;
+  background-color: white;
+  background-image: url("../img/search.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  text-align: left;
+  cursor: w-resize;
 }
 
 .pagesearch-bar:focus {
+<<<<<<< HEAD
     text-align: right;
     direction: rtl;
     float: right;
     width: 300px;
     right: 100%;
+=======
+  direction: rtl;
+  float:right;
+  width: 300px;
+  right: 100%;
+  cursor: text;
+>>>>>>> cfbf8b3b616ffbf93e8fc471aa7238a7afa00da4
 }
 /*----------Site----------*/
 .site-top {
-    background-color: #F1F1F2;
-    flex: 1;
-    width: 100%;
+  background-color: #F1F1F2;
+  flex: 1;
+  width: 100%;
 }
 
 /*----------Lesson----------*/
