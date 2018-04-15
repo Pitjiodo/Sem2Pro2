@@ -276,6 +276,25 @@ section {
   display: block;
 }
 
+/*----------Home----------*/
+
+.home-video {
+  background-color: #FFF;
+  border-radius: 5px;
+  border-style: ridge;
+  border-color: #226494;
+  padding: 1%;
+  margin: 1%;
+}
+.home-news {
+  background-color: #FFF;
+  border-radius: 5px;
+  border-style: ridge;
+  border-color: #226494;
+  padding: 1%;
+  margin: 1%;
+}
+
 /*----------Lesson----------*/
 .site-top-lesson {
     background-color: #F1F1F2;
