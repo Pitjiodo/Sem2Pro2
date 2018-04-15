@@ -61,7 +61,7 @@ h1 {
 #site-nav a:hover {
   border-bottom: solid;
   position: relative;
-  display: inline-block;
+  display: inline;
   margin: 0;
 }
 
@@ -206,7 +206,7 @@ h1 {
 
 .pagesearch-bar {
   width: 0%;
-  min-width: 20px;
+  min-width: 19px;
   -webkit-transition: width 0.25s ease-in-out;
   transition: width 0.25s ease-in-out;
   overflow: hidden;
@@ -215,29 +215,57 @@ h1 {
   background-repeat: no-repeat;
   background-position: right;
   text-align: left;
-  cursor: w-resize;
+  cursor: pointer;
 }
 
 .pagesearch-bar:focus {
-<<<<<<< HEAD
-    text-align: right;
-    direction: rtl;
-    float: right;
-    width: 300px;
-    right: 100%;
-=======
   direction: rtl;
   float:right;
   width: 300px;
   right: 100%;
   cursor: text;
->>>>>>> cfbf8b3b616ffbf93e8fc471aa7238a7afa00da4
 }
 /*----------Site----------*/
 .site-top {
   background-color: #F1F1F2;
   flex: 1;
   width: 100%;
+}
+/*----------Lesson Design----------*/
+.lesson-design {
+}
+
+input#tab1,
+input#tab2,
+input#tab3,
+input#tab4,
+input#tab5,
+input#tab6,
+input#tab7 {
+  display: none;
+}
+
+label {
+  display: block;
+  color: deeppink;
+  cursor: pointer;
+  text-decoration: none;
+  background: lime;
+  line-height: 4.6em;
+}
+
+section {
+  display: none;
+}
+
+#tab1:checked ~ #content 1,
+#tab2:checked ~ #content 2,
+#tab3:checked ~ #content 3,
+#tab4:checked ~ #content 4,
+#tab5:checked ~ #content 5,
+#tab6:checked ~ #content 6,
+#tab7:checked ~ #content 7 {
+  display: block;
 }
 
 /*----------Lesson----------*/
