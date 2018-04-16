@@ -526,11 +526,19 @@ width: 100%;
     line-height: normal;
     height: 80px;
 }
+.edit{
+    position: absolute;
+    margin-top: -30px;
+}
+.edit-img {
+    height: 46px;
+    width: auto;
+}
 .clock {
     margin-left: 20px;
     position: relative;
     display: flex;
-    top: 130px;
+    top: 80px;
 }
 .clock-img {
     height: 20px;
@@ -540,13 +548,13 @@ width: 100%;
     margin-left: 20px;
     position: relative;
     display: flex;
-    top: 90px;
+    top: 40px;
 }
 .sub-code {
     margin-left: 20px;
     position: relative;
     display: flex;
-    top: 50px;
+    top: 0px;
 }
 .grade {
     margin-left: 20px;
