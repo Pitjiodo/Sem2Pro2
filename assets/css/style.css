@@ -22,6 +22,9 @@ h1 {
 ::placeholder {
     color: #b2b2b2;
 }
+a {
+    text-decoration: none;
+}
 /*----------Nav----------*/
 .top-nav {
   margin: 0;
@@ -520,6 +523,16 @@ background-color: #FFFFFF;
 flex: 1;
 width: 100%;
 }
+.site-top-home a {
+    text-decoration: none;
+    color:#044C7F;
+}
+.a-home-side {
+    margin-right: 123px;
+    max-width: 338px;
+    flex: 1;
+    margin-left: 5%;
+}
 
 .home-video {
   background-color: #F1F1F2;
@@ -537,9 +550,51 @@ width: 100%;
   padding: 1%;
   margin: 1%;
 }
-
+.post-home {
+  background-color: #F1F1F2;
+  border-style: solid;
+  border-color: #226494;
+  padding: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 40px;
+  line-height: normal;
+}
+.home-main {
+    flex: 1;
+}
+.home-h1 {
+    font-weight: 700;
+    margin: 1%;
+    color: #044C7F
+}
 .post-reference {
   font-weight: bold;
+}
+.content-home {
+  max-width: 984px;
+  background-color: #F1F1F2;
+  border-style: solid;
+  border-color: #226494;
+  padding: 20px;
+  margin-left: 123px;
+  margin-top: 23px;
+  margin-bottom: 123px;
+}
+.site-home-top {
+    display: flex;
+}
+.home-popular, .home-leaderboard {
+  background-color: #F1F1F2;
+  border-style: solid;
+  border-color: #226494;
+  padding: 5%;
+}
+.home-leaderboard {
+    margin-top: 23px;
+}
+.home-popular {
+    margin-top: 23px;
 }
 
 /*----------Lesson----------*/
@@ -556,6 +611,7 @@ width: 100%;
     display: flex;
     flex-flow: row;
     margin-top: 50px;
+    text-decoration: none;
 }
 .lessonCode, .lessonSpell, .lessonMath {
     position: relative;
@@ -597,11 +653,19 @@ width: 100%;
     line-height: normal;
     height: 80px;
 }
+.edit{
+    position: absolute;
+    margin-top: -30px;
+}
+.edit-img {
+    height: 46px;
+    width: auto;
+}
 .clock {
     margin-left: 20px;
     position: relative;
     display: flex;
-    top: 130px;
+    top: 80px;
 }
 .clock-img {
     height: 20px;
@@ -611,13 +675,13 @@ width: 100%;
     margin-left: 20px;
     position: relative;
     display: flex;
-    top: 90px;
+    top: 40px;
 }
 .sub-code {
     margin-left: 20px;
     position: relative;
     display: flex;
-    top: 50px;
+    top: 0px;
 }
 .grade {
     margin-left: 20px;
@@ -646,6 +710,35 @@ width: 100%;
     flex: 1;
   margin-top: 170px;
 }
+.create-lesson{
+  border-radius: 10px;
+  border-style: none;
+  margin-left: 123px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  position: relative;
+  right: 123px;
+  width: 338px;
+  height: 30px;
+  color: #fff;
+  background-color: #044C7F;
+}
+.filter-lessons {
+  background-color: #FFF;
+  border-style: ridge;
+  border-color: #226494;
+  padding: 5%;
+  margin-bottom: 40px;
+}
+.filter-lessons h2{
+  margin-top: -10px;
+  font-weight: 700px;
+  color: #044C7F;
+}
+.filter-lessons p{
+font-weight: 400px;
+color: #000;
+}
 .filter-grade {
   background-color: #FFF;
   border-style: ridge;
@@ -653,12 +746,31 @@ width: 100%;
   padding: 5%;
 }
 .filter-grade h2{
+  margin-top: -10px;
   font-weight: 700px;
   color: #044C7F;
 }
 .filter-grade p{
 font-weight: 400px;
 color: #000;
+}
+.check-box {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -34px;
+}
+.check-box-img {
+    height: 20px;
+    width: auto;
+}
+.slider {
+    margin-left: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+.slider-img {
+    height: 70px;
+    width: auto;
 }
 /*----------Forum----------*/
 .site-top-forum {
@@ -724,7 +836,6 @@ color: #000;
     max-width: 338px;
     flex: 1;
     margin-left: 5%;
-
 }
 .next-page {
     text-align: right;
