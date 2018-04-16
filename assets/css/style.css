@@ -522,6 +522,35 @@ width: 100%;
     flex: 1;
   margin-top: 170px;
 }
+.create-lesson{
+  border-radius: 10px;
+  border-style: none;
+  margin-left: 123px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  position: relative;
+  right: 123px;
+  width: 338px;
+  height: 30px;
+  color: #fff;
+  background-color: #044C7F;
+}
+.filter-lessons {
+  background-color: #FFF;
+  border-style: ridge;
+  border-color: #226494;
+  padding: 5%;
+  margin-bottom: 40px;
+}
+.filter-lessons h2{
+  margin-top: -10px;
+  font-weight: 700px;
+  color: #044C7F;
+}
+.filter-lessons p{
+font-weight: 400px;
+color: #000;
+}
 .filter-grade {
   background-color: #FFF;
   border-style: ridge;
@@ -529,12 +558,31 @@ width: 100%;
   padding: 5%;
 }
 .filter-grade h2{
+  margin-top: -10px;
   font-weight: 700px;
   color: #044C7F;
 }
 .filter-grade p{
 font-weight: 400px;
 color: #000;
+}
+.check-box {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -34px;
+}
+.check-box-img {
+    height: 20px;
+    width: auto;
+}
+.slider {
+    margin-left: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+.slider-img {
+    height: 70px;
+    width: auto;
 }
 /*----------Forum----------*/
 .site-top-forum {
