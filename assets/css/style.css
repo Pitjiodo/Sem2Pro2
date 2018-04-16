@@ -367,21 +367,31 @@ section {
 
 /*----------Home----------*/
 
+.site-top-home {
+background-color: #FFFFFF;
+flex: 1;
+width: 100%;
+}
+
 .home-video {
-  background-color: #FFF;
+  background-color: #F1F1F2;
+  flex: 1;
+  width: 100%;
+  border-bottom: 5px ridge;
+  border-color: #226494;
+  padding: 1%;
+}
+.home-news {
+  background-color: #FFFFFF;
   border-radius: 5px;
   border-style: ridge;
   border-color: #226494;
   padding: 1%;
   margin: 1%;
 }
-.home-news {
-  background-color: #FFF;
-  border-radius: 5px;
-  border-style: ridge;
-  border-color: #226494;
-  padding: 1%;
-  margin: 1%;
+
+.post-reference {
+  font-weight: bold;
 }
 
 /*----------Lesson----------*/
