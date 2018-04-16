@@ -316,11 +316,22 @@ h1 {
 }
 
 /*----------Design----------*/
+[id^="content"] {
+  position: fixed;
+  background-color: white;
+  max-width: 75%;
+  height: 700px;
+  left: 25%;
+  top: 190px;
+  padding: 20px;
+}
+
 #design-title{
   font-family: 'Cabin Sketch', sans-serif;
   font-weight: 700;
   font-size: 40px;
   color: #044C7F;
+  margin: 30px 15px 30px 0;
 }
 
 input#tab1,
@@ -334,12 +345,13 @@ input#tab7 {
 }
 
 label {
-  display: block;
-  color: deeppink;
+  display: flex;
+  color: black;
   cursor: pointer;
   text-decoration: none;
-  background: lime;
+  background: 666;
   line-height: 4.6em;
+  width: 25%;
 }
 
 section {
@@ -357,12 +369,22 @@ section {
 }
 
 .design {
-  width: 30%;
+  width: 100%;
+  max-width: 1824px;
+  margin: 0 auto;
 }
 
 .design [id^="tab"]:checked + label {
   background: #fff;
-  border-top
+  /*border-left: 4px solid #044C7F;
+  border-top: 4px solid #044C7F;
+  border-bottom: 4px solid #044C7F;*/
+}
+
+.subtitle {
+  display: inline;
+  position: relative;
+  left: 10px;
 }
 
 /*----------Home----------*/
