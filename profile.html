@@ -12,23 +12,26 @@
     <body class="site-wrapper">
 
         <div class="top-nav">
-            <nav id="site-nav">
-               <img id="logo" src="assets\img\KEDU-blaa-350.png" alt="KEDU">
-                <ul>
-                    <li><a>HOME</a></li>
-                    <li><a>LESSONS</a></li>
-                    <li><a>MY LESSONS</a></li>
-                    <li><a>FORUM</a></li>
-                </ul>
-            </nav>
+            <a href="#"><img id="logo" src="assets/img/KEDU-blaa-350.png" alt="KEDU"></a>
+                <nav id="site-nav">
+                    <ul>
+                        <li><a>HOME</a></li>
+                        <li><a>LESSONS</a></li>
+                        <li><a>MY LESSONS</a></li>
+                        <li><a>FORUM</a></li>
+                    </ul>
+                </nav>
+            <div class="headertopright">
+                <a href="#"><img id="avatar" src="assets/img/headeravatar.png" alt="KEDU"></a>
+                <div id="headertext"><p><b>Peter Gellert Kätow</b></p><p><font size="3">Teacher - Online</font></p></div>
+            </div>
         </div>
-
         <div class="breadcrumbline">
-          <ul class="breadcrumbs">
-            <li><a href="#">Profile</a></li>
-          </ul>
-          <input type="text" name="search" placeholder="Search" id="pagesearch" class="pagesearch-bar">
-       </div>
+            <ul class="breadcrumbs">
+                <li><a href="#">Profile</a></li>
+            </ul>
+            <input type="text" name="search" id="pagesearch" class="pagesearch-bar">
+        </div>
 
 
        
@@ -53,8 +56,9 @@
                 <div><p>City</p><input type="text" class="city"></div>
                 <div><p>School</p><input type="text" class="school"></div>
             </div>
+            <button class="saveButton">Save</button>
         </div>
-        <button class="saveButton">Save</button>
+        
 
     </body>
     <script src="assets/js/profile.js"></script>

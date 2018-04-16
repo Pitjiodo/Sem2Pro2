@@ -102,6 +102,16 @@ h1 {
   line-height: 1.0em;
   text-align: right;
 }
+.saveButton {
+    position: relative;
+    border-radius: 8px;
+    left:  93%;
+    background-color: #044C7F;
+    color: #fff;
+    border-bottom: none;
+    height: 25px;
+    width: 60px;
+}
 
 /*----------Breadcrumbs----------*/
 .breadcrumbline {
@@ -234,6 +244,77 @@ h1 {
   width: 100%;
 }
 
+
+/*----------Login----------*/
+.login-site-wrapper {
+    display: flex;
+    flex-flow: column;
+    background-image: url('../img/loginBackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login {
+    flex: 1;
+    max-width: 100%;
+}
+.kedu-logo {
+    width: 169px;
+    height: auto;
+    display: block;
+    margin: 115px auto 0 auto;
+}
+.login-box {
+    max-width: 728px;
+    max-height: 419px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    margin: 200px auto 0 auto;
+    padding: 18px;
+    background-color: #fff;
+}
+.email {
+    position: relative;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.password {
+    position: relative;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.login-box input {
+    height: 40px;
+    width: 660px;
+    margin: 0;
+    position: relative;
+    border-style: solid;
+    border-radius: 11px;
+    border-width: 1px;
+    border-color: #053756;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.login-button, .register-button {
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+}
+.login-button {
+    background-color: #044C7F;
+}
+.register-button {
+    background-color: #216393;
+}
+
 /*----------Design----------*/
 #design-title{
   font-family: 'Cabin Sketch', sans-serif;
@@ -345,48 +426,115 @@ section {
     font-weight: 400px;
     color: #000;
     line-height: normal;
+    height: 80px;
+}
+.grade {
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    top: 170px;
+}
+.grade-img {
+    height: 20px;
+    width: auto;
+}
+.sub {
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    top: 130px;
+}
+.sub-img {
+    height: 20px;
+    width: auto;
+}
+/*----------Forum----------*/
+.site-top-forum {
+    display: flex;
+}
+.forum-main {
+    flex: 1;
+}
+.forum-search {
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 123px;
+    margin-top: 100px;
 }
 
-/*----------Forum----------*/
-
+.forum-h1 {
+    font-weight: 700;
+    margin: 1%;
+    color: #044C7F
+}
 .content-forum {
-  width: 70%;
-  float: left;
+  max-width: 984px;
   background-color: #FFF;
-  border-radius: 5px;
   border-style: ridge;
   border-color: #226494;
-  padding: 1%;
-  margin: 1%;
+  padding: 20px;
+  margin-left: 123px;
+  margin-top: 23px;
+  margin-bottom: 123px;
 }
 
 .post-forum {
   background-color: #FFF;
-  border-radius: 5px;
   border-style: ridge;
   border-color: #226494;
   padding: 1%;
-  margin: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 40px;
+  line-height: normal;
 }
 
-.forum-popular-threads, .leaderboard {
-  width: 30%;
-  float: right;
+.popular, .leaderbord {
   background-color: #FFF;
-  border-radius: 5px;
   border-style: ridge;
   border-color: #226494;
-  padding: 1%;
-  margin: 1%;
+  padding: 5%;
 }
-
+.leaderbord {
+    margin-top: 123px;
+}
+.popular {
+    margin-top: 23px;
+}
 .user-name-when-posted, .replies-count{
   font-style: italic;
-  color: #F68D28;
+  color: #044C7F;
 }
 
+.a-side {
+    margin-right: 123px;
+    max-width: 338px;
+    flex: 1;
+    margin-left: 5%;
 
-
+}
+.next-page {
+    text-align: right;
+    margin: 1%;
+    margin-top: 50px;
+}
+.forum-button {
+    border-radius: 10px;
+    margin-left: 123px;
+    margin-top: 100px;
+    position: absolute;
+    right: 123px;
+    width: 338px;
+    height: 30px;
+    flex: 1;
+    color: #fff;
+    background-color: #044C7F;
+}
+.site-top-forum a {
+    text-decoration: none;
+    color:#044C7F;
+}
 /*----------profile----------*/
 .first-row, .sec-row, .third-row {
     display: flex;
