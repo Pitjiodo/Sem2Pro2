@@ -452,6 +452,12 @@ background-color: #FFFFFF;
 flex: 1;
 width: 100%;
 }
+.a-home-side {
+    margin-right: 123px;
+    max-width: 338px;
+    flex: 1;
+    margin-left: 5%;
+}
 
 .home-video {
   background-color: #F1F1F2;
@@ -469,9 +475,51 @@ width: 100%;
   padding: 1%;
   margin: 1%;
 }
-
+.post-home {
+  background-color: #F1F1F2;
+  border-style: solid;
+  border-color: #226494;
+  padding: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 40px;
+  line-height: normal;
+}
+.home-main {
+    flex: 1;
+}
+.home-h1 {
+    font-weight: 700;
+    margin: 1%;
+    color: #044C7F
+}
 .post-reference {
   font-weight: bold;
+}
+.content-home {
+  max-width: 984px;
+  background-color: #F1F1F2;
+  border-style: solid;
+  border-color: #226494;
+  padding: 20px;
+  margin-left: 123px;
+  margin-top: 23px;
+  margin-bottom: 123px;
+}
+.site-home-top {
+    display: flex;
+}
+.home-popular, .home-leaderboard {
+  background-color: #F1F1F2;
+  border-style: solid;
+  border-color: #226494;
+  padding: 5%;
+}
+.home-leaderboard {
+    margin-top: 23px;
+}
+.home-popular {
+    margin-top: 23px;
 }
 
 /*----------Lesson----------*/
@@ -705,7 +753,6 @@ color: #000;
     max-width: 338px;
     flex: 1;
     margin-left: 5%;
-
 }
 .next-page {
     text-align: right;
