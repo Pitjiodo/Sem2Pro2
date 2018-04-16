@@ -244,13 +244,83 @@ h1 {
   width: 100%;
 }
 
-/*----------Design----------*/
-.design {
 
+/*----------Login----------*/
+.login-site-wrapper {
+    display: flex;
+    flex-flow: column;
+    background-image: url('../img/loginBackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login {
+    flex: 1;
+    max-width: 100%;
+}
+.kedu-logo {
+    width: 169px;
+    height: auto;
+    display: block;
+    margin: 115px auto 0 auto;
+}
+.login-box {
+    max-width: 728px;
+    max-height: 419px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    margin: 200px auto 0 auto;
+    padding: 18px;
+    background-color: #fff;
+}
+.email {
+    position: relative;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.password {
+    position: relative;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.login-box input {
+    height: 40px;
+    width: 660px;
+    margin: 0;
+    position: relative;
+    border-style: solid;
+    border-radius: 11px;
+    border-width: 1px;
+    border-color: #053756;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.login-button, .register-button {
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+}
+.login-button {
+    background-color: #044C7F;
+}
+.register-button {
+    background-color: #216393;
 }
 
-.design-title{
-
+/*----------Design----------*/
+#design-title{
+  font-family: 'Cabin Sketch', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #044C7F;
 }
 
 input#tab1,
@@ -276,33 +346,52 @@ section {
   display: none;
 }
 
-#tab1:checked ~ #content 1,
-#tab2:checked ~ #content 2,
-#tab3:checked ~ #content 3,
-#tab4:checked ~ #content 4,
-#tab5:checked ~ #content 5,
-#tab6:checked ~ #content 6,
-#tab7:checked ~ #content 7 {
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6,
+#tab7:checked ~ #content7 {
   display: block;
+}
+
+.design {
+  width: 30%;
+}
+
+.design [id^="tab"]:checked + label {
+  background: #fff;
+  border-top
 }
 
 /*----------Home----------*/
 
+.site-top-home {
+background-color: #FFFFFF;
+flex: 1;
+width: 100%;
+}
+
 .home-video {
-  background-color: #FFF;
+  background-color: #F1F1F2;
+  flex: 1;
+  width: 100%;
+  border-bottom: 5px ridge;
+  border-color: #226494;
+  padding: 1% 10%;
+}
+.home-news {
+  background-color: #FFFFFF;
   border-radius: 5px;
   border-style: ridge;
   border-color: #226494;
   padding: 1%;
   margin: 1%;
 }
-.home-news {
-  background-color: #FFF;
-  border-radius: 5px;
-  border-style: ridge;
-  border-color: #226494;
-  padding: 1%;
-  margin: 1%;
+
+.post-reference {
+  font-weight: bold;
 }
 
 /*----------Lesson----------*/
@@ -427,6 +516,9 @@ color: #000;
 .site-top-forum {
     display: flex;
 }
+.forum-main {
+    flex: 1;
+}
 .forum-search {
     width: 500px;
     height: 30px;
@@ -441,7 +533,6 @@ color: #000;
     color: #044C7F
 }
 .content-forum {
-  flex: 1;
   max-width: 984px;
   background-color: #FFF;
   border-style: ridge;
@@ -481,10 +572,10 @@ color: #000;
 }
 
 .a-side {
-    position: absolute;
-    right: 123px;
-    width: 338px;
+    margin-right: 123px;
+    max-width: 338px;
     flex: 1;
+    margin-left: 5%;
 
 }
 .next-page {
