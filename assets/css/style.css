@@ -319,7 +319,12 @@ a {
 .register-button {
     background-color: #216393;
 }
-
+.button-form {
+    margin: 0;
+    width: 120px;
+    height: 40px;
+    display: inline;
+}
 /*----------Design----------*/
 [id^="content"] {
   position: absolute;
