@@ -25,6 +25,9 @@ h1 {
 a {
     text-decoration: none;
 }
+.profile-class {
+    font-size: 13px;
+}
 /*----------Nav----------*/
 .top-nav {
   margin: 0;
